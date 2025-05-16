@@ -9,7 +9,7 @@ const forecastList = document.getElementById('forecast-list');
 const mapFrame = document.getElementById('map-frame');
 
 let weatherChart = null;
-const API_KEY = '849aa284b74539f3dc387ca20d358130';
+const API_KEY = '';
 
 citySelect.addEventListener('change', async () => {
   const city = citySelect.value;
